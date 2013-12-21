@@ -12,15 +12,15 @@ login_page = agent.get("http://pu.bits-pilani.ac.in/index.php")
 login_form = login_page.form('formElem')
 
 # Add constants for username and password
-login_form.username = 'f2010172'
-login_form.password = 'p7grCRVz'
+login_form.username = ''
+login_form.password = ''
 
 response_page = agent.submit(login_form, login_form.buttons.first)
 
 # Add constants for Form ID
 response_form = response_page.form('formElem')
 response_form.cgpa = '6.70'
-response_form.mobile = '9649965806'
+response_form.mobile = ''
 student_home = agent.submit(response_form, response_form.buttons.first)
 
 # Hack alert! find a better way to match notification count
