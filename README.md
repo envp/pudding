@@ -38,10 +38,10 @@ Pudding is a Ruby script written using mechanize to login to your PU account for
 1. Navigate to the directory where `pudding.exe` is located
 2. Double click `pudding.exe` and wait till it exits
 3. It should have created `pudding_client_config.xml` and `pudding_server_config.xml` in the very same directory
-4. Edit `pudding_client_config.xml`
+4. Edit `pudding_client_config.xml` the same way as previously described
+5. Same gotchas apply here too
 
 
 ### TODO
 
 * Write Rspec Tests
-* Write click method down
