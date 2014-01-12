@@ -45,3 +45,5 @@ Pudding is a Ruby script written using mechanize to login to your PU account for
 ### TODO
 
 * Write Rspec Tests
+* Polling functionality
+* Optional UI (Not so likely)
