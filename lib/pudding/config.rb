@@ -2,9 +2,9 @@ module Configuration
 
   class AppConfig
     # Configuration constants
-    CLIENT_CONFIG_FILE = 'pudding_client_config.xml'
-    SERVER_CONFIG_FILE = 'pudding_server_config.xml'
-
+    CLIENT_CONFIG_FILE  = 'pudding_client_config.xml'
+    SERVER_CONFIG_FILE  = 'pudding_server_config.xml'
+    FORM_CSS_SELECTOR   = 'formElem'
     # Client configuration object
     class ClientConf
       attr_reader :username, :password
