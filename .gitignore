@@ -9,6 +9,9 @@
 build/*.*
 bin/*.*
 
+# Screen shots for HOW-TO's
+img/*.*
+
 # Downloaded pdf files
 *.pdf
 
