@@ -5,7 +5,6 @@
 require 'mechanize'
 
 require_relative 'helpers/array_helpers.rb'
-require_relative 'helpers/string_helpers.rb'
 
 module Downloader
   class PuddingAgent < Mechanize::HTTP::Agent
