@@ -19,13 +19,13 @@ Pudding is a Ruby script written using mechanize to login to your PU account for
 ![](http://i.imgur.com/c8bTSb4.png)
 4. Open `pudding_client_config.xml`, located in the same directory with your text editor of choice to see something like:
 
-```xml
-
+	```xml
+	
 	<o c="Configuration::AppConfig::ClientConf">
 	  <s a="@username"></s>
 	  <s a="@password"></s>
 	</o>
-```
+	```
 
 5. Fill your placement unit username in `<s a="@username"></s>` as `<s a="@username">f2010XYZ</s>`
 6. Fill your placement unit password in `<s a="@password"></s>` as `<s a="@password">YOUR_PASSWORD_GOES_EXACTLY_HERE</s>`
