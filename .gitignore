@@ -14,3 +14,7 @@
 # Configs that might leak
 pudding_client_config.xml
 pudding_server_config.xml
+
+
+# Running git changelog
+.gitmsg
