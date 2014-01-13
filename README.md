@@ -8,6 +8,8 @@ Pudding is a Ruby script written using mechanize to login to your PU account for
 
 ### Usage
 
+[Download the release](https://github.com/vaibhav-y/pudding/releases/tag/v0.1-r13)
+
 ##### Console method (You see what's happeing)
 1. Open your windows command prompt ([Relevant links incase you're lost](http://pcsupport.about.com/od/windows7/a/command-prompt-windows-7.htm))
 2. Navigate to the directory where `pudding.exe` is located
