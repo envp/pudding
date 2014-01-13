@@ -25,9 +25,9 @@ Pudding is a Ruby script written using mechanize to login to your PU account for
 	</o>
 	```
 
-5. Fill your placement unit username in ```xml 	<s a="@username"></s>``` as ```xml <s a="@username">f2010XYZ</s>```
-6. Fill your placement unit password in ```xml <s a="@password"></s>``` as ```xml <s a="@password">YOUR_PASSWORD_GOES_EXACTLY_HERE</s>``` 
-7. You should be doing this, and only this (for now atleat, suggestions are welcome):
+5. Fill your placement unit username as `<s a="@username">f2010XYZ</s>`
+6. Fill your placement unit password as `<s a="@password">YOUR_PASSWORD_GOES_EXACTLY_HERE</s>` 
+7. You should be doing this, and only this (suggestions are welcome):
  
 	![THIS IS THE ONLY WAY YOU CAN FILL THE FILE!](http://i.imgur.com/NWtliFj.png)
 
