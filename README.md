@@ -15,7 +15,7 @@ Pudding is a Ruby script written using mechanize to login to your PU account for
 2. Navigate to the directory where `pudding.exe` is located
 3. In the command prompt type `pudding.exe` and hit `enter`, something like the image below should happen:
 ![](http://i.imgur.com/c8bTSb4.png)
-4. Open `pudding_client_config.xml`, located in the same directory with your text editor of choice to see something like:
+4. Open `pudding_client_config.xml`, located in the same directory with notepad to see something like:
 
 	```xml
 	
@@ -25,10 +25,14 @@ Pudding is a Ruby script written using mechanize to login to your PU account for
 	</o>
 	```
 
-5. Fill your placement unit username in `<s a="@username"></s>` as `<s a="@username">f2010XYZ</s>`
-6. Fill your placement unit password in `<s a="@password"></s>` as `<s a="@password">YOUR_PASSWORD_GOES_EXACTLY_HERE</s>`
-7. Do not change `pudding_server_config.xml`, that file is very important in connecting to the PU server!
-8. Yes, you must fill the username and password, this is as lazy as you can get! :D
+5. Fill your placement unit username in ```xml 	<s a="@username"></s>``` as ```xml <s a="@username">f2010XYZ</s>```
+6. Fill your placement unit password in ```xml <s a="@password"></s>``` as ```xml <s a="@password">YOUR_PASSWORD_GOES_EXACTLY_HERE</s>``` 
+7. You should be doing this, and only this (for now atleat, suggestions are welcome):
+ 
+	![THIS IS THE ONLY WAY YOU CAN FILL THE FILE!](http://i.imgur.com/NWtliFj.png)
+
+8. Do not change `pudding_server_config.xml`, that file is very important in connecting to the PU server!
+9. Yes, you must fill the username and password, this is as lazy as you can get! :D
 
 
 ##### Click method (You don't see what's happening)
@@ -44,4 +48,6 @@ Pudding is a Ruby script written using mechanize to login to your PU account for
 
 * Write Rspec Tests
 * Polling functionality
-* Optional UI (Not so likely)
+* One time console prompt to enter password (for setting the config)
+* Optional UI
+* Write a detailed guide to filling in `pudding_client_config.xml`
