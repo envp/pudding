@@ -25,6 +25,8 @@ module PuddingApp
     brobot.start(PU_ADDRESS, CONFIG)
 
     # Exit with a greeting
+    Greeting.prompt
+    STDIN.getc
     Greeting.goodbye
   end
 

@@ -41,6 +41,10 @@ module Greeting
 
   end
 
+  # Press Enter to exit!
+  def self.prompt
+    print "Press Enter to exit!"
+  end
   # End of Application greeting
   def self.goodbye
     puts SEP_HORIZ * CNT
