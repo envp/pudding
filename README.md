@@ -1,5 +1,7 @@
 # [Pudding](https://github.com/vaibhav-y/pudding)
 
+[![Code Climate](https://codeclimate.com/github/vaibhav-y/pudding.png)](https://codeclimate.com/github/vaibhav-y/pudding)
+
 Inspired by Srijan Choudhary's [puAlert.php](https://github.com/srijan/puAlert), thank you for this wonderful idea!
 
 ### Description
